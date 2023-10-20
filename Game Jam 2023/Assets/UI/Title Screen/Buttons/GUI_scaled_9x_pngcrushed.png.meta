@@ -1,0 +1,633 @@
+fileFormatVersion: 2
+guid: d3cbd037509246943832e3fd5852a2aa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 747
+        width: 378
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a3fa87da0393d41998cfd799ca9409
+      internalID: 2010275354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 864
+        width: 144
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6150c34a420b67549a51edc13b0c3690
+      internalID: 1991741100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 747
+        width: 378
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83f647ed6c405e4494f4d4477ae46e4
+      internalID: 321397602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_3
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 864
+        width: 144
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458011f6004414d40b0fd37742eadbec
+      internalID: 894213328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 594
+        width: 378
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dbce06518d38d479895acbe0a7af46
+      internalID: 304970372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_5
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 621
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e479e7de08d9a794d964cd39b4a7586b
+      internalID: -164621876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_6
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 594
+        width: 378
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bd46b3ba1c06747ba594787e50494b
+      internalID: 1650570929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_7
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 621
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8cdbd92890bd94290aeafe6aee5c43
+      internalID: 1445626695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 450
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5eac601a3431c6438684fdbf2352f61
+      internalID: -1593205984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 450
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f2dfccf4a42364f83c60d273f17bd0
+      internalID: -1394017608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_10
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 450
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529cfa3a6d2da4e428187d6bdd6aa278
+      internalID: -783517208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_11
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 441
+        width: 432
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8707449febec6a940b3521641208a8a3
+      internalID: 1211967079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 306
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b6f75c688268f4a9346e10f21ce7ab
+      internalID: 969243511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 306
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753e29507ee302449935ee8b4403f947
+      internalID: 198674821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 306
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db91145c5b0a3a7458f570cbef57f1cb
+      internalID: -537511269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_15
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 297
+        width: 432
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af4441ed625436488a1e49b151ad052
+      internalID: 1567587652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 162
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46ef18a69a519d4e868acb87e2f8528
+      internalID: -690235928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 162
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12de36baf0f113418b29e3a97a6ba52
+      internalID: -1794298224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_18
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 162
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f7990be191f5e49a55a1dff4c2a1b4
+      internalID: -911154395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_19
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 153
+        width: 432
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43669b8d5c6b4d94483a92d9849599fd
+      internalID: -1676723427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_20
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b3f4fee06f30645a8bec2664169901
+      internalID: 1310995205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_21
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 18
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bab9e11502e1442884eb58ab63d2f8
+      internalID: 253055371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_scaled_9x_pngcrushed_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 9
+        width: 432
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29081cc51468f746b73eb6127adf2f1
+      internalID: 88957749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GUI_scaled_9x_pngcrushed_0: 2010275354
+      GUI_scaled_9x_pngcrushed_1: 1991741100
+      GUI_scaled_9x_pngcrushed_10: -783517208
+      GUI_scaled_9x_pngcrushed_11: 1211967079
+      GUI_scaled_9x_pngcrushed_12: 969243511
+      GUI_scaled_9x_pngcrushed_13: 198674821
+      GUI_scaled_9x_pngcrushed_14: -537511269
+      GUI_scaled_9x_pngcrushed_15: 1567587652
+      GUI_scaled_9x_pngcrushed_16: -690235928
+      GUI_scaled_9x_pngcrushed_17: -1794298224
+      GUI_scaled_9x_pngcrushed_18: -911154395
+      GUI_scaled_9x_pngcrushed_19: -1676723427
+      GUI_scaled_9x_pngcrushed_2: 321397602
+      GUI_scaled_9x_pngcrushed_20: 1310995205
+      GUI_scaled_9x_pngcrushed_21: 253055371
+      GUI_scaled_9x_pngcrushed_22: 88957749
+      GUI_scaled_9x_pngcrushed_3: 894213328
+      GUI_scaled_9x_pngcrushed_4: 304970372
+      GUI_scaled_9x_pngcrushed_5: -164621876
+      GUI_scaled_9x_pngcrushed_6: 1650570929
+      GUI_scaled_9x_pngcrushed_7: 1445626695
+      GUI_scaled_9x_pngcrushed_8: -1593205984
+      GUI_scaled_9x_pngcrushed_9: -1394017608
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
