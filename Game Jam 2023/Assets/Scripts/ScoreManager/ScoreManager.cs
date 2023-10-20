@@ -9,14 +9,6 @@ public class ScoreManager : MonoBehaviour
     private float score;
     private string highScoreKey = "high_score";
 
-    private void Awake()
-    {
-        Instance = this;
-
-        ResetScore();
-        InitHighScore();
-    }
-
     /// <summary>
     /// Reset current score to zero.
     /// </summary>
@@ -60,10 +52,20 @@ public class ScoreManager : MonoBehaviour
         return PlayerPrefs.GetFloat(highScoreKey);
     }
 
+    #region Private Methods
+    private void Awake()
+    {
+        Instance = this;
+
+        ResetScore();
+        InitHighScore();
+    }
+
     private void InitHighScore()
     {
         if (PlayerPrefs.HasKey(highScoreKey)) return;
 
         PlayerPrefs.SetFloat(highScoreKey, score);
     }
+    #endregion
 }
