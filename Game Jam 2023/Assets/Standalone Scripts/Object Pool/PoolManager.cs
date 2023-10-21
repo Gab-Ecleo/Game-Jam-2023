@@ -12,16 +12,22 @@ public class PoolConfig
 public class PoolManager : MonoBehaviour
 {
     public static ObjectPool BulletPool;
+    public static ObjectPool EnemyPool1;
+    public static ObjectPool EnemyPool2;
 
     [SerializeField] private GameObject poolPrefab;
 
     [Space]
     [Header("Pool Configs")]
     [SerializeField] private PoolConfig bulletPoolConfig;
+    [SerializeField] private PoolConfig enemyPoolConfig1;
+    [SerializeField] private PoolConfig enemyPoolConfig2;
 
     private void Awake()
     {
         BulletPool = NewObjectPool(bulletPoolConfig);
+        EnemyPool1 = NewObjectPool(enemyPoolConfig1);
+        EnemyPool2 = NewObjectPool(enemyPoolConfig2);
     }
 
     private ObjectPool NewObjectPool(PoolConfig config)
