@@ -45,6 +45,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poolPrefab: {fileID: 4226940145937451721, guid: 5dfda331e85399345adb9917de1d33a2, type: 3}
-  bulletPool:
+  bulletPoolConfig:
     objectPrefab: {fileID: 3947326649949736423, guid: 34a411ff0d2320b48ae378e7fcd3027c, type: 3}
-    poolSize: 30
+    poolSize: 20
+  enemyPoolConfig1:
+    objectPrefab: {fileID: 27002373456224307, guid: c54a7abcb9ace2645850d1a1cc026371, type: 3}
+    poolSize: 5
+  enemyPoolConfig2:
+    objectPrefab: {fileID: 7214966330413014927, guid: 91e1d3ab2301d9c4dbb51143af0e6142, type: 3}
+    poolSize: 5

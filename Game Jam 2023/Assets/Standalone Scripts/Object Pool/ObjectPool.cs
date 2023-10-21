@@ -13,6 +13,7 @@ public class ObjectPool : MonoBehaviour
         for (int n = 0; n < objectInstances.Length; n++)
         {
             objectInstances[n] = Instantiate(prefab, transform);
+            objectInstances[n].SetActive(false);
         }
     }
 
@@ -21,7 +22,7 @@ public class ObjectPool : MonoBehaviour
         for(int n = 0; n < objectInstances.Length; n++)
         {
             if (objectInstances[n].activeSelf) continue;
-
+            
             return objectInstances[n];
         }
 
