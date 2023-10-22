@@ -46,10 +46,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   poolPrefab: {fileID: 4226940145937451721, guid: 5dfda331e85399345adb9917de1d33a2, type: 3}
   specialPoolConfig:
-    objectPrefab: {fileID: 3947326649949736423, guid: 34a411ff0d2320b48ae378e7fcd3027c, type: 3}
+    objectPrefab: {fileID: 5596193652063504031, guid: 871525b04ae0a5c46a548da3bdf4053b, type: 3}
     poolSize: 5
   bulletPoolConfig:
-    objectPrefab: {fileID: 3947326649949736423, guid: 34a411ff0d2320b48ae378e7fcd3027c, type: 3}
+    objectPrefab: {fileID: 3789051452508415031, guid: a4d9d161ecfb5514d985d946cfbe34e0, type: 3}
     poolSize: 20
   enemyPoolConfig1:
     objectPrefab: {fileID: 27002373456224307, guid: c54a7abcb9ace2645850d1a1cc026371, type: 3}
