@@ -6,8 +6,8 @@ public class EnemySpawning : MonoBehaviour
 {
     public static EnemySpawning Instance;
 
-    [SerializeField] private Transform minBound;
-    [SerializeField] private Transform maxBound;
+    private Vector2 minBound;
+    private Vector2 maxBound;
 
     private GameObject[] spawnedEnemies;
     private int[] waveConfig;
@@ -35,11 +35,18 @@ public class EnemySpawning : MonoBehaviour
 
         if (currentWave >= waveCount)
         {
+            GateManager.Instance.ActivateGates(false);
             waveSpawned = false;
             return;
         }
 
         SpawnWave(waveConfig[currentWave]);
+    }
+
+    public void SetBounds(Vector2 min, Vector2 max)
+    {
+        minBound = min;
+        maxBound = max;
     }
 
     public void StartSpawnWaves(int[] enemyCounts)
@@ -85,11 +92,8 @@ public class EnemySpawning : MonoBehaviour
 
     private Vector2 RandomPosition()
     {
-        Vector2 min = minBound.transform.position;
-        Vector2 max = maxBound.transform.position;
-
-        float x = Random.Range(min.x, max.x);
-        float y = Random.Range(min.y, max.y);
+        float x = Random.Range(minBound.x, maxBound.x);
+        float y = Random.Range(minBound.y, maxBound.y);
 
         return new Vector2(x, y);
     }
