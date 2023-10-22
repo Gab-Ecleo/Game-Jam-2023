@@ -19911,6 +19911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage Starter Room 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1190085384202346303, guid: e3ae3447429f41c4495811aa628d350d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1416864500187707820, guid: e3ae3447429f41c4495811aa628d350d, type: 3}
       propertyPath: m_Size.x
       value: 2.1007295
