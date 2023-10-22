@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 453655841267462254}
   - component: {fileID: 7324284416687687682}
-  - component: {fileID: 6892958663102558889}
+  - component: {fileID: 119515085068072628}
   m_Layer: 0
   m_Name: PlayerVirtualCamera
   m_TagString: Untagged
@@ -73,7 +73,7 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 2331604851735270163}
---- !u!114 &6892958663102558889
+--- !u!114 &119515085068072628
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
