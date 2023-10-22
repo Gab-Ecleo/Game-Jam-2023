@@ -52,7 +52,7 @@ MonoBehaviour:
     objectPrefab: {fileID: 3789051452508415031, guid: a4d9d161ecfb5514d985d946cfbe34e0, type: 3}
     poolSize: 20
   enemyPoolConfig1:
-    objectPrefab: {fileID: 8897677008577631408, guid: e25a15a4a6c57da4a8adb1f631a7fc28, type: 3}
+    objectPrefab: {fileID: 5977369280126098652, guid: 2d601928ac6196840b0193f55b760a18, type: 3}
     poolSize: 10
   enemyPoolConfig2:
     objectPrefab: {fileID: 5977369280126098652, guid: 2d601928ac6196840b0193f55b760a18, type: 3}
