@@ -187,3 +187,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionFilter: 1
+  damage: 100

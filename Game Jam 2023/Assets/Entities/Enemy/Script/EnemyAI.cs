@@ -25,6 +25,7 @@ public class EnemyAI : MonoBehaviour
         _agent = GetComponent<NavMeshAgent>();
         _agent.updateRotation = false;
         _agent.updateUpAxis = false;
+        _agent.enabled = false;
     }
 
     private IEnumerator Start()
@@ -35,6 +36,11 @@ public class EnemyAI : MonoBehaviour
         {
             yield return StartCoroutine(FollowWaypoint(_wayPoint));
         }
+    }
+
+    private void Update()
+    {
+        _agent.enabled = gameObject.activeSelf;
     }
 
     #endregion
