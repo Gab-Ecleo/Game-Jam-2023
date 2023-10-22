@@ -24005,6 +24005,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Master
       objectReference: {fileID: 0}
+    - target: {fileID: 5216510206798126218, guid: f253ba2ac3c455b45b4eefe2094f0143, type: 3}
+      propertyPath: managerPrefabs.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5216510206798126218, guid: f253ba2ac3c455b45b4eefe2094f0143, type: 3}
+      propertyPath: managerPrefabs.Array.data[7]
+      value: 
+      objectReference: {fileID: 6190505723296051083, guid: 4112ef927e8629540b01f516399c8755, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
