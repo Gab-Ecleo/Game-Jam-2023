@@ -11,6 +11,7 @@ public class BulletCollision : MonoBehaviour
     }
 
     [SerializeField] private ObjectTag collisionFilter;
+    [SerializeField] private float damage;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -18,10 +19,13 @@ public class BulletCollision : MonoBehaviour
 
         if (!collision.CompareTag(collisionFilter.ToString())) return;
 
-        CollisionEvent();
+        HealthPoint hp = collision.gameObject.GetComponent<HealthPoint>();
+        hp.DeductHealth(damage);
+
+        CollisionEvent(collision);
     }
 
-    protected virtual void CollisionEvent()
+    protected virtual void CollisionEvent(Collider2D collision)
     {
         Debug.Log($"COLLIDED with {collisionFilter}");
     }

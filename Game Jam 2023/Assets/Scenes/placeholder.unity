@@ -19911,6 +19911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage Starter Room 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1190085384202346303, guid: e3ae3447429f41c4495811aa628d350d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1416864500187707820, guid: e3ae3447429f41c4495811aa628d350d, type: 3}
       propertyPath: m_Size.x
       value: 2.1007295
@@ -58258,7 +58262,6 @@ GameObject:
   - component: {fileID: 1735306204}
   - component: {fileID: 1735306207}
   - component: {fileID: 1735306206}
-  - component: {fileID: 1735306205}
   m_Layer: 0
   m_Name: Props
   m_TagString: Untagged
@@ -58281,42 +58284,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2090595488}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!19719996 &1735306205
-TilemapCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735306203}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_MaximumTileChangeCount: 1000
-  m_ExtrusionFactor: 0
-  m_UseDelaunayMesh: 0
 --- !u!483693784 &1735306206
 TilemapRenderer:
   m_ObjectHideFlags: 0

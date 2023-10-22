@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 2559723264495221411}
   - component: {fileID: 6642968100261682785}
   - component: {fileID: 208697320380189830}
+  - component: {fileID: -7408221879893344926}
+  - component: {fileID: -2174827573335206779}
   m_Layer: 0
   m_Name: Range Enemy
   m_TagString: Enemy
@@ -196,7 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyType: 1
-  _healthPoint: 0
+  _healthPoint: 100
 --- !u!114 &208697320380189830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,3 +211,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f7e383ee27392a46a205c233e89be99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-7408221879893344926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5977369280126098652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db991c728aed422449fedd79c26ec650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 1
+--- !u!114 &-2174827573335206779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5977369280126098652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db8d89edd00887488fe92872ec4066c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
