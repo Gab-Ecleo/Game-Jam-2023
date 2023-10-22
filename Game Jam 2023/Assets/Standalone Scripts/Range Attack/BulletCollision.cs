@@ -21,7 +21,7 @@ public class BulletCollision : MonoBehaviour
         CollisionEvent();
     }
 
-    public virtual void CollisionEvent()
+    protected virtual void CollisionEvent()
     {
         Debug.Log($"COLLIDED with {collisionFilter}");
     }
