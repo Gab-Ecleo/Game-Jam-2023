@@ -39,6 +39,7 @@ public class UIManager : MonoBehaviour
     _pauseUi.SetActive(false);
 
     isAlive = PlayerManager.Instance.GetPlayer().GetComponent<HealthPoint>();
+    
   }
 
   private void Start()
@@ -95,7 +96,7 @@ public class UIManager : MonoBehaviour
 
   public void RestartGame()
   {
-    //Load current scenee
+    SceneManager.LoadScene(1);
   }
 
   public void ConfirmRestart()
@@ -106,7 +107,7 @@ public class UIManager : MonoBehaviour
 
   public void ReturnToTitle()
   {
-    //Load Title Scene
+    SceneManager.LoadScene(0);
   }
 
   public void Return()

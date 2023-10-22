@@ -18,7 +18,7 @@ public class TitleUIManager : MonoBehaviour
     public void StartGame()
     {
         //Load Game Scene
-        _mainScreen.SetActive(true);
+        SceneManager.LoadScene(1);
     }
 
     public void LoadCredits()
