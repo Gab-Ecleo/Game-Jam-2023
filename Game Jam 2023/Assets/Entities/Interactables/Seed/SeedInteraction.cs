@@ -32,7 +32,6 @@ public class SeedInteraction : MonoBehaviour
         if (!Input.GetKeyDown(interactKey)) return;
 
         //Add interaction here
-        MapManager.Instance.PurifyLand();
     }
 
     public void EnableInteraction(bool state)
