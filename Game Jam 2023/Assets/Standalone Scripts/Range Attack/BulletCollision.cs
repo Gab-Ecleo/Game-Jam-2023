@@ -14,6 +14,8 @@ public class BulletCollision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        WallCollision(collision);
+
         if (!collision.CompareTag(collisionFilter.ToString())) return;
 
         CollisionEvent();
@@ -27,5 +29,12 @@ public class BulletCollision : MonoBehaviour
     public void Despawn()
     {
         gameObject.SetActive(false);
+    }
+
+    private void WallCollision(Collider2D collision)
+    {
+        if (!collision.CompareTag("Wall")) return;
+
+        this.Despawn();
     }
 }

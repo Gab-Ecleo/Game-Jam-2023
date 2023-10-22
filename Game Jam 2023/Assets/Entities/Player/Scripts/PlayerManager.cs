@@ -6,11 +6,15 @@ public class PlayerManager : MonoBehaviour
 {
     public static PlayerManager Instance;
 
-    [SerializeField] private GameObject player;
+    [SerializeField] private GameObject playerPrefab;
+
+    private GameObject player;
 
     private void Awake()
     {
         Instance = this;
+
+        player = Instantiate(playerPrefab, transform);
     }
 
     public GameObject GetPlayer()
