@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,4 +14,11 @@ public class GameMaster : MonoBehaviour
             Instantiate(manager, transform);
         }
     }
+
+    #region Methods
+    
+    
+    #endregion
+    
+    
 }

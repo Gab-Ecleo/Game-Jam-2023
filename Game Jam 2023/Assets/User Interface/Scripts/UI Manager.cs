@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class UIManager : MonoBehaviour
@@ -11,8 +12,20 @@ public class UIManager : MonoBehaviour
   
   private bool isPaused;
 
+  [Header("Main UI")]
   public GameObject _pauseUi;
+  public GameObject _levelCompleteUi;
+  public GameObject _gameOverUi;
+  
+  [Header("Sub UI")]
+  public GameObject _baseRestart;
+  public GameObject _confirmRestart;
+  
+  public GameObject _baseReturn;
+  public GameObject _confirmReturn;
 
+  private bool isAlive; 
+  
   #endregion
 
   #region Unity Methods
@@ -24,6 +37,8 @@ public class UIManager : MonoBehaviour
     
     //Set Pause UI inactive by default
     _pauseUi.SetActive(false);
+
+    isAlive = PlayerManager.Instance.GetPlayer().GetComponent<HealthPoint>();
   }
 
   private void Start()
@@ -41,6 +56,11 @@ public class UIManager : MonoBehaviour
     else if (isPaused)
       if (KeyPress(KeyCode.Escape) || KeyPress(KeyCode.P))
         ResumeGame();
+    
+    
+    
+    if (!isAlive)
+      GameOver();
   }
 
   #endregion
@@ -59,6 +79,48 @@ public class UIManager : MonoBehaviour
     _pauseUi.SetActive(false);
     isPaused = false;
     Time.timeScale = 1f;
+  }
+  
+  public void LevelComplete()
+  {
+    //Do Game Over Stuff
+    _levelCompleteUi.SetActive(true);
+  }
+
+  public void GameOver()
+  {
+    _gameOverUi.SetActive(true);
+    Time.timeScale = 0f;
+  }
+
+  public void RestartGame()
+  {
+    //Load current scenee
+  }
+
+  public void ConfirmRestart()
+  {
+    _baseRestart.SetActive(false);
+    _confirmRestart.SetActive(true);
+  }
+
+  public void ReturnToTitle()
+  {
+    //Load Title Scene
+  }
+
+  public void Return()
+  {
+    if (_confirmRestart.activeSelf)
+    {
+      _confirmRestart.SetActive(false);
+      _baseRestart.SetActive(true);
+    }
+    else if (_confirmReturn.activeSelf)
+    {
+      _confirmReturn.SetActive(false);
+      _baseReturn.SetActive(true);
+    }
   }
 
   #endregion

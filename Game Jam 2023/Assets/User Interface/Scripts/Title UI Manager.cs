@@ -45,6 +45,6 @@ public class TitleUIManager : MonoBehaviour
         Application.Quit();
         Debug.Log("Application closed");
     }
-    
+
     #endregion
 }
