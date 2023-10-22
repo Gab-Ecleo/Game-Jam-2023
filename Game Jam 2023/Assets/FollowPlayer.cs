@@ -1,18 +1,20 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private CinemachineVirtualCamera _cam;
+
+    private void Awake()
     {
-        
+        _cam = GetComponent<CinemachineVirtualCamera>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        _cam.Follow = PlayerManager.Instance.GetPlayer().transform;
     }
 }
