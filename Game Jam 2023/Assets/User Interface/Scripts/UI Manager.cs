@@ -8,9 +8,10 @@ public class UIManager : MonoBehaviour
   #region Variables
 
   public static UIManager Instance;
-
-  [SerializeField] private GameObject[] _uiObj;
+  
   private bool isPaused;
+
+  public GameObject _pauseUi;
 
   #endregion
 
@@ -20,24 +21,26 @@ public class UIManager : MonoBehaviour
   {
     Instance = this;
     isPaused = false;
-
-    foreach (GameObject obj in _uiObj)
-    {
-      Instantiate(obj);
-    }
+    
+    //Set Pause UI inactive by default
+    _pauseUi.SetActive(false);
   }
 
   private void Start()
   {
-    //Set Pause UI inactive by default
-    _uiObj[1].SetActive(false);
     Time.timeScale = 1f;
   }
 
   private void Update()
   {
-    if (KeyPress(KeyCode.Escape) || KeyPress(KeyCode.P))
-      PauseGame();
+    if (!isPaused)
+    {
+      if (KeyPress(KeyCode.Escape) || KeyPress(KeyCode.P))
+        PauseGame();
+    }
+    else if (isPaused)
+      if (KeyPress(KeyCode.Escape) || KeyPress(KeyCode.P))
+        ResumeGame();
   }
 
   #endregion
@@ -46,18 +49,16 @@ public class UIManager : MonoBehaviour
 
   public void PauseGame()
   {
-    Debug.Log("Game Paused");
+    _pauseUi.SetActive(true);
     isPaused = true;
     Time.timeScale = 0f;
-    _uiObj[1].SetActive(true);
   }
 
   public void ResumeGame()
   {
-    Debug.Log("Game Resumed");
+    _pauseUi.SetActive(false);
     isPaused = false;
     Time.timeScale = 1f;
-    _uiObj[1].SetActive(false);
   }
 
   #endregion
