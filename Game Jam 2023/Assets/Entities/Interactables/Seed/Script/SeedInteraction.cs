@@ -30,7 +30,9 @@ public class SeedInteraction : MonoBehaviour
         seedText.SetActive(true);
 
         if (!Input.GetKeyDown(interactKey)) return;
-            MapManager.Instance.PurifyLand();
+
+        MapManager.Instance.PurifyLand();
+        //game win
     }
 
     public void EnableInteraction(bool state)
