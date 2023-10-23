@@ -32,7 +32,7 @@ public class SeedInteraction : MonoBehaviour
         if (!Input.GetKeyDown(interactKey)) return;
 
         MapManager.Instance.PurifyLand();
-        //game win
+        UIManager.Instance.LevelComplete();
     }
 
     public void EnableInteraction(bool state)
